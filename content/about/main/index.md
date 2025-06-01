@@ -6,8 +6,10 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-I am a Director of Product at [Anaconda](https://www.anaconda.com/), where I lead development of the [Core Distribution](https://www.anaconda.com/download) enterprise and open-source products. I'm also a cognitive scientist with a Ph.D. in psychology, 1/3 of the [`palmerpenguins`](https://allisonhorst.github.io/palmerpenguins/) team, a data scientist, an expert in data science education, and a mediocre website developer (I built this website and open-sourced my Hugo theme <3). 
-  <br><br>I use this website to share about projects I am working on, and to write reflections about crafting kind tech tools.
+  Soy economista con especialización en Big Data y estadistica aplicada. Trabajo en la [Dirección de Población](https://www.gob.pe/37197-ministerio-de-la-mujer-y-poblaciones-vulnerables-infopoblacion) del MIMP, donde analizo datos demográficos para contribuir al diseño de políticas públicas. En [Quantum Data Consulting](https://quantumdataconsultants.com/) lidero proyectos de recopilación de información de campo en contextos complejos, utilizando herramientas como KoBoToolBox, ODK y QGIS. 
+  <br><br>Además, colaboro en iniciativas del sector privado enfocadas en análisis avanzado, visualización interactiva y modelos predictivos. Utilizo tecnologías como R, Python, Stata, SPSS, Power BI y Shiny, y trabajo con entornos Big Data como Apache Spark y servicios en la nube como GCP y AWS.
+  
+
 show_outro: true
 outro: |
   <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
