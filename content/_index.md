@@ -1,21 +1,23 @@
 ---
-action_label: Read More &rarr;
+action_label: Sobre mí &rarr;
 action_link: /about
 action_type: text
-description: Sit down, relax, and get to know Hugo Apéro. Built on top of Blogophonic,
-  we wanted to create a polished Hugo theme with the right features for a true personal
-  website. We set out to create a theme that is a pleasure to learn, and one that
-  helps others get to know you better. It is more than a blog, with flexible custom
-  layouts that help you introduce yourself online.
+description: "Soy economista especializado en análisis de datos poblacionales y espaciales.
+Lidero proyectos de recopilación de información en campo, utilizando herramientas 
+como **ODK** y **KoboToolbox** en contextos complejos, para contribuir al diseño de políticas públicas.
+También desarrollo sistemas de visualización y pronósticos que facilitan la toma de decisiones 
+en el sector público y privado. Si quieres convertir datos en decisiones estratégicas
+que generen un impacto real, conectemos y trabajemos juntos para transformar la información 
+en resultados."
 image_left: false
 images:
 - img/denis.jpg
 show_action_link: true
 show_social_links: true
-subtitle: A Hugo theme you'll want to hang out with
+subtitle: Data Scientist | Análisis Demográfico
 text_align_left: false
-title: Hugo Apéro
-type: home 
+title: "Denis Rodríguez, economista"
+type: home
 ---
 
 ** index doesn't contain a body, just front matter above.
