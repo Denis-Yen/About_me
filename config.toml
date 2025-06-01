@@ -1,6 +1,6 @@
 baseURL = "https://denis-rodriguez.netlify.app/"
 theme = "hugo-apero"
-languageCode = "en"
+languageCode = "es"
 title = "Denis Rodríguez, economista | Data Scientist"
 author = "Denis Yen"
 copyright = "" # set to override the auto generated copyright using org info and now year
