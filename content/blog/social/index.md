@@ -1,7 +1,7 @@
 ---
-author: Alison Hill & Eric Anderson
+author: Denis Rodríguez
 categories:
-- Theme Features
+- Población y Desarrollo
 date: "2021-01-28"
 draft: false
 excerpt: This theme offers built-in Font Awesome icons for organizing your collection
@@ -11,7 +11,7 @@ excerpt: This theme offers built-in Font Awesome icons for organizing your colle
 layout: single
 subtitle: Social icons may appear on several pages throughout your site. Learn how
   to set them up, and control where they show up.
-title: Set up your social
+title: Autocorrelación espacial de la población adulta mayor
 ---
 
 There are five places where you can choose to show social icons. Here is the tl;dr:

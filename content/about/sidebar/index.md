@@ -11,8 +11,8 @@ link_list:
   url: https://www.kobotoolbox.org/
 - name: Shiny
   url: https://shiny.posit.co/py/
-- name: Libertad económica
-  url: https://efotw.org/?geozone=world&page=map&year=2022
+- name: SIG
+  url: https://qgis.org/
 - name: Población y desarrollo
   url: https://www.prb.org/  
 - name: Dashboards

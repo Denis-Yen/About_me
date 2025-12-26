@@ -1,127 +1,116 @@
 ---
-author: Eric Anderson
+author: Denis Rodríguez
 categories:
-- Theme Features
-- R
-- package
-date: "2019-07-03"
+- Cursos
+- Kobotoolbox
+- Power BI
+date: "2025-12-26"
 draft: false
-excerpt: Building this static site generator theme was the first time I used an Atomic
-  (or Functional) CSS system like Tachyons. It’s a design system that provides very
-  small (which means fast) CSS modules that you can use in your HTML.
+excerpt: "Curso de kobotoolbox para la recopilación de datos, enfocado en el diseño de formularios inteligentes,
+        trabajo de campo y visualización de información en tiempo real con Power Bi, aplicable a instituciones públicas, 
+        academia, investigadores, ONGs y público en general."    
 layout: single
 subtitle: A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that
   always moves faster than light.
 tags:
-- hugo-site
-title: Tachyons for Style
+- Kobotoolbox
+title: Curso de recopilación de datos
+subtitle: Kobotoolbox + Power BI + IA
 ---
 
-![Tachyons Logo Script](tachyons-logo-script.png)
+![Registro_baneer](registro.png)
 
-## [Tachyons](http://tachyons.io) is a design system that allows you to design gorgeous interfaces in the browser with little effort.
+## Aprende a transformar información de campo en decisiones.[Inscribirme](https://ee.kobotoolbox.org/x/D4Xe3bYw) 
 
 ---
 
-### Because Speed
+### En que consiste el curso
 
-Building this static site generator theme was the first time I used an Atomic
-(or Functional) CSS system like Tachyons. It's a design system that provides
-very small (which means fast) CSS modules that you can use in your HTML. So,
-rather than writing every line of CSS, you apply the style you need as you write
-your HTML with easy to understand shorthand class names. This makes for a very
-powerful way to style, in the browser, or while building a static site like this
-one – since you can see every change with every save. **It's a joy to use.**
+Este curso consiste en una formación práctica orientada a organizaciones para la recopilación, gestión y
+uso de información mediante KoboToolbox, una herramienta de código abierto utilizada por organizaciones 
+internacionales, humanitarias y de desarrollo. A lo largo del curso, los participantes aprenden a diseñar
+formularios digitales, recolectar datos en campo (en línea y fuera de línea) y conectar la información con
+Power BI para generar reportes y tableros en tiempo real, fortaleciendo el monitoreo de proyectos y la toma
+de decisiones basada en datos en contextos reales del sector público, académico, social y empresarial.
 
-In using this theme for your next static website project, you won't need to know
-anything about Tachyons ... so, don't freak out. Even though I used it to style
-the theme, you won't need to change a thing. BUT, if you do want to play around
-with it, you can make massive changes very easily. Just familiarize yourself
-with the [clear documentation on the design system](http://tachyons.io/docs/).
-Once you dive in, you'll recognize all the classes I'm using in the markup.
+### 🎯 Resultados que lograrás
 
-### BYOTachyons
+Al finalizar el curso, serás capaz de:
 
-One of the best features of Tachyons is the exhaustive [component
-library](https://www.tachyonstemplates.com/components/?selectedKind=AboutPages&selectedStory=AboutUs&full=0&down=0&left=1&panelRight=0)
-contributed by the community. All those components are built to work with the
-Tachyons classes, so they will work in this theme too! You can copy/paste
-components in order to quickly block out a page, then fill in your content.
+- ✅ **Crear formularios digitales profesionales** con validaciones automáticas.
+- 🧾 **Diseñar registros de asistencia inteligentes**, incluyendo:
+  - DNI (8 dígitos)
+  - Número de celular (9 dígitos)
+  - Correo electrónico válido
+  - **Ubigeo en cascada (Departamento → Provincia → Distrito) usando el código oficial del INEI**
+- 📱 **Recopilar datos organizados y confiables** desde dispositivos móviles o computadoras.
+- 🔒 **Reducir errores en la captura de información** mediante lógica condicional y restricciones avanzadas.
+- 📊 **Construir dashboards interactivos en Power BI**.
+- ⚡ **Automatizar reportes en tiempo real** para el monitoreo y la toma de decisiones.
+- 🧠 **Trabajar con ejercicios reales**, utilizando **plantillas listas para usar** en contextos institucionales.
 
-### Taste the Rainbow
+> Un curso **100 % práctico**, diseñado para organizaciones que requieren datos confiables y oportunos.
 
-We've leveraged the [accessible color
-combinations](http://tachyons.io/docs/themes/skins/) included with Tachyons to
-offer an easy way for you to setup your site using your favorite colors. In the
-site configuration file (`config.toml`), there is a full set of color parameters
-giving you control over the theme color scheme. For an option like `siteBgColor`
-for example, you can just type one of the predefined color names from Tachyons
-and save the file. You can totally customize the theme colors within minutes of
-installing the theme.
 
-```toml
-# basic color options: use only color names as shown in the
-# "Color Palette" section of http://tachyons.io/docs/themes/skins/
-siteBgColor = "near-white"
-sidebarBgColor = "light-gray"
-headingColor = "black"
-textColor = "dark-gray"
-sidebarTextColor = "mid-gray"
-bodyLinkColor = "blue"
-navLinkColor = "near-black"
-sidebarLinkColor = "near-black"
-footerTextColor = "silver"
-buttonTextColor = "near-white"
-buttonBgColor = "black"
-buttonHoverTextColor = "white"
-buttonHoverBgColor = "blue"
-borderColor = "moon-gray"
-```
+### 👥 ¿A quién va dirigido?
 
-### Dig Deeper
+Este curso está dirigido a:
 
-Let's say you have a style guide to follow and `washed-blue` just won't cut the
-mustard. We built Blogophonic for you, too. There is a bypass of these
-predefined colors built in, you just need to dig a little deeper. In the theme
-assets, locate and open the main SCSS file (`/assets/main.scss`). After the
-crazy looking variables you probably don't recognize and directly following the
-Tachyons import (`@import 'tachyons';`) you'll see a comment that looks just
-like this:
+#### 🏢 Organizaciones e instituciones
+- 🌍 **ONGs y organizaciones de cooperación internacional**
+- 🏛️ **Sector público**, incluyendo:
+  - Planeamiento, presupuesto y monitoreo
+  - Educación, salud y desarrollo social
+  - Programas territoriales
+  - Gobiernos locales, regionales y ministerios
+- 👥 **Áreas de Recursos Humanos**
 
-```scss
-// uncomment the import below to activate custom-colors
-// add your own colors at the top of the imported file
-// @import 'custom-colors';
-```
+#### 📊 Equipos de proyectos y datos
+- 📌 **Coordinadores de proyectos**
+- 📈 **Oficiales de Monitoreo y Evaluación (M&E)**
+- 🗂️ **Equipos de recolección de información**
 
-Once you uncomment the `custom-colors` import, it will look like this:
+#### 👤 Profesionales independientes
+- 🧠 **Consultores**
+- 🔬 **Investigadores**
+- 📊 **Analistas de datos**
 
-```scss
-// uncomment the import below to activate custom-colors
-// add your own colors at the top of the imported file
-@import "custom-colors";
-```
+#### 🌱 Público general
+- Cualquier persona interesada en **recopilar, gestionar y visualizar datos de forma profesional**
 
-Save that change, and now the color options in the `config.toml` are no longer
-active – they've been bypassed. To customize the colors, locate and open the
-`custom-colors` file found in the theme assets (`/assets/custom-colors.scss`).
-At the top of that file, you'll find a whole new set of variables for all the
-same color options, but this time you get to assign your own HEX codes.
+### Brouchure del curso
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscripción al curso</title>
+  <style>
+    .btn-inscribirme {
+      background-color: #0fffff;
+      color: #000000;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.0s ease, transform 0.0s ease;
+    }
 
-```scss
-// set your custom colors here
-$siteBgColorCustom: #e3e3da;
-$sidebarBgColorCustom: #dbdbd2;
-$textColorCustom: #666260;
-$sidebarTextColorCustom: #666260;
-$headingColorCustom: #103742;
-$bodyLinkColorCustom: #c4001a;
-$navLinkColorCustom: #c4001a;
-$sidebarLinkColorCustom: #c4001a;
-$footerTextColorCustom: #918f8d;
-$buttonTextColorCustom: #f7f7f4;
-$buttonHoverTextColorCustom: #f9f9f8;
-$buttonBgColorCustom: #103742;
-$buttonHoverBgColorCustom: #c4001a;
-$borderColorCustom: #c4beb9;
-```
+    .btn-inscribirme:hover {
+      background-color: #000000;
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+
+  <a href="https://drive.google.com/file/d/1WUFop1u3ql7EJJBJ74USgmR0Q3-WKeeB/view?usp=sharing" class="btn-inscribirme">
+    📝 Click Aquí
+  </a>
+
+</body>
+</html>
+
+
+
+
