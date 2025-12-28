@@ -2,100 +2,155 @@
 author: Denis Rodríguez
 categories:
 - Población y Desarrollo
-date: "2021-01-28"
+- Demografía
+date: "2025-12-27"
 draft: false
-excerpt: This theme offers built-in Font Awesome icons for organizing your collection
-  of social accounts and their links. Use icons to help visitors find you wherever
-  you want to be found, and learn how to show or hide them in your site's header,
-  footer, homepage, about page, and contact form.
 layout: single
-subtitle: Social icons may appear on several pages throughout your site. Learn how
-  to set them up, and control where they show up.
-title: Autocorrelación espacial de la población adulta mayor
+title: "Perú: Evolución de la Dependencia Demográfica (1950–2100)"
+subtitle: "Una mirada a la transición demográfica y el envejecimiento poblacional"
+excerpt: "La dependencia demográfica es un indicador clave para entender la estructura por edades de la población y los desafíos futuros en pensiones, salud y mercado laboral."
 ---
 
-There are five places where you can choose to show social icons. Here is the tl;dr:
+## ¿Qué es la dependencia demográfica?
 
-+ site header (set in `config.toml`), 
-+ site footer (set in `config.toml`), 
-+ [homepage](/) (set in `content/_index.md`),
-+ [about page](/about) in the sidebar (set in `content/about/sidebar/index.md`), and
-+ [contact page](/contact) (set in `content/form/contact.md`). 
+La **dependencia demográfica** es un indicador fundamental para analizar la estructura por 
+edades de una población. Permite estimar la **presión potencial** que ejercen los grupos 
+considerados dependientes sobre la población en edad de trabajar.
 
-Read on to learn how to set up your social icons, and how to show/hide them.
+Tradicionalmente, se distinguen dos grandes componentes:
 
-## Configure social 
+- **Dependencia juvenil**: población menor de 15 años  
+- **Dependencia por vejez**: población de 65 años y más  
 
-Wherever you end up wanting to show your social icons, you'll need to start by setting up the links in your site `config.toml` file. Open that up and scroll down to the `[[params.social]]` section. The start of it looks like this:
+Ambos grupos se expresan como porcentaje de la población en edad activa (15–64 años).
 
-```toml
-[params]
-  <!--snip snip-->
-  
-  # Social icons may appear on your site header, footer, and other pages
-  # Add as many icons as you like below
-  # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
-  # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
-  # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
-  [[params.social]]
-      icon      = "github" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
-  [[params.social]] <!--lather, rinse, repeat-->
+El análisis de su evolución resulta clave para la **planificación de políticas públicas**,
+especialmente en áreas como:
+
+- Sistemas de pensiones  
+- Salud y cuidados de largo plazo  
+- Educación  
+- Mercado laboral y productividad  
+
+En este artículo se presenta un **gráfico interactivo** que muestra la evolución de la dependencia
+demográfica a nivel mundial entre 1950 y 2100, utilizando **R** y la librería **highcharter**.
+
+## Fuente de los datos
+
+Los datos utilizados provienen de:
+
+> **[World Population Prospects 2024 – Naciones Unidas](https://population.un.org/wpp/)** 
+
+A partir de esta fuente, se ha elaborado previamente un **archivo en Excel**, en el cual se calcula la **dependencia demográfica juvenil y por vejez** como porcentaje respecto a la población en edad de trabajar (15–64 años).
+
+El archivo contiene información histórica y proyecciones de la población mundial, y **puede descargarse directamente en el siguiente [enlace](https://raw.githubusercontent.com/Denis-Yen/Blog/main/data/dependencia_demografica.xlsx)**
+
+## Librerías utilizadas en R
+
+Para la visualización y manipulación de datos se emplearon las siguientes librerías:
+
+```r
+library(highcharter)
+library(tidyverse)
+library(openxlsx)
+```
+### Descargar y leer los datos
+El archivo en formato Excel se encuentra alojado en mi repositorio de **GitHub**.  
+Para utilizarlo, basta con ejecutar el siguiente código en tu ordenador, el cual descargará el archivo y lo leerá directamente en **R**:
+```r
+url <- "https://raw.githubusercontent.com/Denis-Yen/Blog/main/data/dependencia_demografica.xlsx"
+
+temp_file <- tempfile(fileext = ".xlsx")
+download.file(url, temp_file, mode = "wb")
+
+datos_dep <- read.xlsx(temp_file)
+
+```
+### Preparar los datos
+En este paso se renombran las variables y se transforma la base de datos del formato **wide** al formato **long**.  
+Esta transformación es fundamental, ya que permite construir una **serie de tiempo interactiva** y visualizar múltiples categorías dentro de un mismo gráfico.
+```r
+colnames(datos_dep) <- c(
+  "Año",
+  "Dependencia_juvenil",
+  "Dependencia_vejez"
+)
+
+datos_dep_lng <- datos_dep |>
+  pivot_longer(
+    cols = c("Dependencia_juvenil", "Dependencia_vejez"),
+    names_to = "Categoria",
+    values_to = "Porcentaje"
+  ) |>
+  mutate(
+    Porcentaje = round(Porcentaje, 1)
+  )
+
 ```
 
-For each link, you'll need to start a new portion that begins with `[[params.social]]`. Then, pick your `icon` and `icon_pack` from the [Font Awesome](https://fontawesome.com/) free icon library:
+### Construir el gráfico
+En este bloque se genera el **gráfico interactivo de líneas** utilizando la librería **highcharter**.  
+El gráfico permite visualizar la evolución de la **dependencia demográfica juvenil** y la **dependencia por vejez** 
+en el Perú entre 1950 y 2100, incorporando títulos, subtítulos, ejes, etiquetas y una leyenda clara para facilitar su interpretación.
+```r
+grafico <- highchart() |>
+  hc_chart(type = "line") |>
+  hc_title(
+    text = "Evolución de la dependencia demográfica mundial (1950–2100)"
+  ) |>
+  hc_subtitle(
+    text = "(Población de 0–14 años + población de 65 años y más) / población de 15–64 años"
+  ) |>
+  hc_xAxis(
+    title = list(text = "Año"),
+    categories = unique(datos_dep_lng$Año)
+  ) |>
+  hc_yAxis(
+    title = list(text = "Porcentaje"),
+    labels = list(format = "{value:.1f}")
+  ) |>
+  hc_tooltip(
+    shared = TRUE,
+    valueDecimals = 1,
+    valueSuffix = " %"
+  ) |>
+  hc_add_series(
+    data = datos_dep_lng |>
+      filter(Categoria == "Dependencia_juvenil") |>
+      pull(Porcentaje),
+    name = "Dependencia juvenil (0–14 años)",
+    color = "#1D3557"
+  ) |>
+  hc_add_series(
+    data = datos_dep_lng |>
+      filter(Categoria == "Dependencia_vejez") |>
+      pull(Porcentaje),
+    name = "Dependencia por vejez (65 años y más)",
+    color = "#E63946"
+  ) |>
+  hc_caption(
+    text = "Fuente: World Population Prospects 2024 | Elaboración: Denis Rodríguez"
+  )
 
-+ Icon pack "fab" includes [brand icons](https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-
-+ Icon pack "fas" includes [solid icons](https://fontawesome.com/icons?d=gallery&s=solid&m=free)
-
-+ Icon pack "far" includes [regular icons](https://fontawesome.com/icons?d=gallery&s=regular&m=free)
-
-Finally, add the `url` that you would like users to go to when they click on that icon. All external links (i.e., those that start with `http`) will open in a new tab (that is, `target="_blank"`); relative links to pages within the site will open in the same window.
-
-Now you should be all set to show/hide your social icons. Each of these will pull the social icons and urls from the settings you just created in your site configuration file.
-
-## Show social in site header and footer
-
-Let's start with the header and footer, as those are site-wide. Open up your site `config.toml` file again and scroll down to the `[params]` section (it is actually :up: from where you configured these icons):
-
-```toml
-[params]
-  <!--snip snip-->
-  
-  # show/hide social icons in site header & footer
-  # configure social icons and links below in [[params.social]]
-  socialInHeader = false
-  socialInFooter = true
 ```
+Finalmente, el gráfico evidencia que hacia el año 2050 la dependencia por vejez alcanzará
+aproximadamente **27 personas mayores por cada 100 personas en edad de trabajar (15 a 64 años),
+superando a la dependencia juvenil**. Este comportamiento marca un punto de inflexión en la estructura
+demográfica del Perú y refleja el avance sostenido del proceso de envejecimiento poblacional.
 
-That was easy!
+Este cambio demográfico plantea desafíos estratégicos para las políticas públicas en el país, 
+particularmente en lo referido a la sostenibilidad del sistema de pensiones, la creciente demanda
+de servicios de salud, el desarrollo e implementación de sistemas de cuidados de largo plazo,
+así como la adaptación del mercado laboral frente a una población progresivamente más envejecida.
 
-## Show social in homepage
+<iframe 
+  src="/01-dependencia-demografica/grafico_final.html"
+  width="100%" 
+  height="500px"
+  frameborder="0">
+</iframe>
 
-Open up `content/_index.md`. That file's YAML controls what you see on the homepage. Set `show_social_links` like so:
 
-```yaml
-show_social_links: true # specify social accounts in site config
-```
 
-If you set this to `true` to show the icons on the homepage, your social icons in the footer will not show up even when you set `socialInFooter = true`, so as not to litter your site with too many icons.
 
-## Show social in about page sidebar
 
-Open up `content/about/sidebar/index.md`. That file's YAML controls what you see in the sidebar on the about page. Set `show_social_links` like so:
-
-```yaml
-show_social_links: true # specify social accounts in site config
-```
-
-## Show social in contact page
-
-You may use the YAML for your contact page (located in `content/form/contact.md`):
-
-```yaml
----
-show_social_links: true # specify social accounts in site config
----
-```
