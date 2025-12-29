@@ -6,9 +6,9 @@ categories:
 date: "2025-12-27"
 draft: false
 layout: single
-title: "Perú: Evolución de la Dependencia Demográfica (1950–2100)"
-subtitle: "Una mirada a la transición demográfica y el envejecimiento poblacional"
-excerpt: "La dependencia demográfica es un indicador clave para entender la estructura por edades de la población y los desafíos futuros en pensiones, salud y mercado laboral."
+title: "Cómo visualizar la dependencia demográfica en R: explorando su punto de inflexión"
+subtitle: "Un gráfico interactivo para analizar la dependencia juvenil y por vejez"
+excerpt: "A través de un gráfico interactivo en R, aprennde y explorar la evolución de la dependencia demográfica y descubrir el momento en que la dependencia por vejez superará a la juvenil. Una visualización interactiva que invita a comprender, con datos, un cambio clave en la estructura poblacional."
 ---
 
 ### ¿Qué es la dependencia demográfica?
@@ -33,7 +33,7 @@ especialmente en áreas como:
 - Mercado laboral y productividad  
 
 En este artículo se presenta un **gráfico interactivo** que muestra la evolución de la dependencia
-demográfica a nivel mundial entre 1950 y 2100, utilizando **R** y la librería **highcharter**.
+demográfica del Perú entre 1950 y 2100, utilizando **R** y la librería **highcharter**.
 
 ### Fuente de los datos
 
@@ -96,7 +96,7 @@ en el Perú entre 1950 y 2100, incorporando títulos, subtítulos, ejes, etiquet
 grafico <- highchart() |>
   hc_chart(type = "line") |>
   hc_title(
-    text = "Evolución de la dependencia demográfica mundial (1950–2100)"
+    text = "Perú. Evolución de la dependencia demográfica (1950–2100)"
   ) |>
   hc_subtitle(
     text = "(Población de 0–14 años + población de 65 años y más) / población de 15–64 años"
@@ -150,7 +150,9 @@ así como la adaptación del mercado laboral frente a una población progresivam
   frameborder="0">
 </iframe>
 
----
+----
+
+<a href="https://www.buymeacoffee.com/denisyenrc7"><img src="https://img.buymeacoffee.com/button-api/?text=Cómprame un café&emoji=☕&slug=denisyenrc7&button_colour=6fc7da&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 <span style="color:#6fc7da; font-weight:600;">
 Si este contenido te fue útil,
@@ -161,7 +163,6 @@ Es una forma sencilla de ayudarme a seguir creando y compartiendo conocimiento.
 </span>
 
 
-<a href="https://www.buymeacoffee.com/denisyenrc7"><img src="https://img.buymeacoffee.com/button-api/?text=Cómprame un café&emoji=☕&slug=denisyenrc7&button_colour=6fc7da&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 
 

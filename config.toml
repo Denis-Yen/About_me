@@ -1,7 +1,7 @@
 baseURL = "https://denis-rodriguez.netlify.app/"
 theme = "hugo-apero"
 languageCode = "es"
-title = "Denis Rodríguez, economista | Data Scientist"
+title = "Denis Rodríguez"
 author = "Denis Yen"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -33,7 +33,7 @@ enableEmoji = true
   orgLocal = "Quatum Data Consulting"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
-  logo = "/img/logo_qdc.png"
+  logo = "/img/Logo_qdc.png"
   mainSections = ["blog", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
