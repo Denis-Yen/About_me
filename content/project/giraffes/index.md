@@ -23,9 +23,7 @@ subtitle: Kobotoolbox + Power BI + IA
 ## Aprende a transformar información de campo en decisiones.[Inscribirme](https://ee.kobotoolbox.org/x/D4Xe3bYw) 
 
 ---
-
 ### En que consiste el curso
-
 Este curso consiste en una formación práctica orientada a organizaciones para la recopilación, gestión y
 uso de información mediante KoboToolbox, una herramienta de código abierto utilizada por organizaciones 
 internacionales, humanitarias y de desarrollo. A lo largo del curso, los participantes aprenden a diseñar

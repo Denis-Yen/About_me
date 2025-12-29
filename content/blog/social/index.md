@@ -11,7 +11,7 @@ subtitle: "Una mirada a la transición demográfica y el envejecimiento poblacio
 excerpt: "La dependencia demográfica es un indicador clave para entender la estructura por edades de la población y los desafíos futuros en pensiones, salud y mercado laboral."
 ---
 
-## ¿Qué es la dependencia demográfica?
+### ¿Qué es la dependencia demográfica?
 
 La **dependencia demográfica** es un indicador fundamental para analizar la estructura por 
 edades de una población. Permite estimar la **presión potencial** que ejercen los grupos 
@@ -35,7 +35,7 @@ especialmente en áreas como:
 En este artículo se presenta un **gráfico interactivo** que muestra la evolución de la dependencia
 demográfica a nivel mundial entre 1950 y 2100, utilizando **R** y la librería **highcharter**.
 
-## Fuente de los datos
+### Fuente de los datos
 
 Los datos utilizados provienen de:
 
@@ -45,7 +45,7 @@ A partir de esta fuente, se ha elaborado previamente un **archivo en Excel**, en
 
 El archivo contiene información histórica y proyecciones de la población mundial, y **puede descargarse directamente en el siguiente [enlace](https://raw.githubusercontent.com/Denis-Yen/Blog/main/data/dependencia_demografica.xlsx)**
 
-## Librerías utilizadas en R
+### Librerías utilizadas en R
 
 Para la visualización y manipulación de datos se emplearon las siguientes librerías:
 
@@ -150,6 +150,18 @@ así como la adaptación del mercado laboral frente a una población progresivam
   frameborder="0">
 </iframe>
 
+---
+
+<span style="color:#6fc7da; font-weight:600;">
+Si este contenido te fue útil,
+</span>
+<span style="color:6fc7da;">
+puedes apoyarme con un café ☕.  
+Es una forma sencilla de ayudarme a seguir creando y compartiendo conocimiento.
+</span>
+
+
+<a href="https://www.buymeacoffee.com/denisyenrc7"><img src="https://img.buymeacoffee.com/button-api/?text=Cómprame un café&emoji=☕&slug=denisyenrc7&button_colour=6fc7da&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 
 
