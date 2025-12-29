@@ -3,12 +3,13 @@ author: Denis Rodríguez
 categories:
 - Población y Desarrollo
 - Demografía
+- R
 date: "2025-12-27"
 draft: false
 layout: single
 title: "Cómo visualizar la dependencia demográfica en R: explorando su punto de inflexión"
 subtitle: "Un gráfico interactivo para analizar la dependencia juvenil y por vejez"
-excerpt: "A través de un gráfico interactivo en R, aprennde y explorar la evolución de la dependencia demográfica y descubrir el momento en que la dependencia por vejez superará a la juvenil. Una visualización interactiva que invita a comprender, con datos, un cambio clave en la estructura poblacional."
+excerpt: "A través de un gráfico interactivo en R, aprende y explorar la evolución de la dependencia demográfica y descubrir el momento en que la dependencia por vejez superará a la juvenil. Una visualización interactiva que invita a comprender, con datos, un cambio clave en la estructura poblacional."
 ---
 
 ### ¿Qué es la dependencia demográfica?
