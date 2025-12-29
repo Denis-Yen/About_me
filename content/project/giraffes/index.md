@@ -10,6 +10,11 @@ excerpt: "Curso de kobotoolbox para la recopilación de datos, enfocado en el di
         trabajo de campo y visualización de información en tiempo real con Power Bi, aplicable a instituciones públicas, 
         academia, investigadores, ONGs y público en general."    
 layout: single
+links:
+- icon: door-open
+  icon_pack: fas
+  name: website
+  url: https://sprightly-biscuit-258c7b.netlify.app/
 subtitle: A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that
   always moves faster than light.
 tags:
