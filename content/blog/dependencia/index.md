@@ -5,6 +5,7 @@ categories:
 - Demografía
 - R
 date: "2025-12-27"
+slug: []
 draft: false
 layout: single
 title: "Cómo visualizar la dependencia demográfica en R: explorando su punto de inflexión"
