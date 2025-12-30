@@ -33,8 +33,11 @@ especialmente en áreas como:
 - Educación  
 - Mercado laboral y productividad  
 
-En este artículo se presenta un **gráfico interactivo** que muestra la evolución de la dependencia
-demográfica del Perú entre 1950 y 2100, utilizando **R** y la librería **highcharter**.
+En este artículo se presenta un **gráfico interactivo** que muestra la evolución de la **dependencia demográfica en el Perú** entre 1950 y 2100,
+desarrollado en **R** con la librería **highcharter**. Para conocer en detalle las opciones de personalización y funcionalidades disponibles, 
+puedes consultar la **[documentación oficial de la API de Highcharts](https://api.highcharts.com/highcharts/)**.
+Es importante tener en cuenta que **highcharter es gratuito únicamente para fines no comerciales**, por lo que su uso en proyectos
+comerciales requiere una licencia.
 
 ### Fuente de los datos
 
