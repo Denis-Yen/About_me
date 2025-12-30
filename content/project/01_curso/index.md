@@ -34,7 +34,8 @@ A lo largo del curso aprenderás a crear formularios digitales, recolectar infor
 conectados directamente a los formularios a través de la API de KoboToolbox, fortaleciendo el monitoreo de proyectos y la toma de decisiones 
 basadas en datos.
 
-### El problema
+{{< panelset class="greetings" >}}
+{{< panel name="El Probelma! :rotating_light:" >}}
 Las organizaciones y profesionales recolectan datos constantemente:
 encuestas, registros administrativos, fichas de atención, monitoreo en campo, etc.
 
@@ -50,7 +51,8 @@ Ya sea en papel, Excel o formularios digitales, el problema no es la recolecció
 🤷‍♂️ La información recolectada no se usa para tomar decisione
 Se invierte tiempo y dinero en recolectar datos que no generan valor.
 
-### La solución
+{{< /panel >}}
+{{< panel name="La solución :white_check_mark:" >}}
 Este curso te enseña a implementar un sistema completo de recolección y gestión de datos, donde:
 - Los datos se validan desde el inicio ✔ 
 - Se reducen errores en campo ✔ 
@@ -58,6 +60,10 @@ Este curso te enseña a implementar un sistema completo de recolección y gesti�
 - Los reportes se generan automáticamente ✔ 
 - Los datos finalmente sirven para decidir ✔ 
 
+{{< /panel >}}
+{{< /panelset >}}
+
+----
 ### Resultados que lograrás al finalizar el curso
 
 Al finalizar el curso, serás capaz de:

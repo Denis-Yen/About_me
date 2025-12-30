@@ -167,7 +167,3 @@ Es una forma sencilla de ayudarme a seguir creando y compartiendo conocimiento.
 </span>
 
 
-
-
-
-
