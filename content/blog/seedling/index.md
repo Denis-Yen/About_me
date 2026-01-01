@@ -7,7 +7,7 @@ draft: false
 excerpt: Add tabbed sections to your posts.
 layout: single
 subtitle: How to add panelsets in plain markdown posts.
-title: Using panelsets
+title: Usar conujto de paneles
 ---
 
 Courtesy of panelset.js by Garrick Aden-Buie, from his xaringanExtra package: https://pkg.garrickadenbuie.com/xaringanExtra/#/panelset
