@@ -75,7 +75,9 @@ El uso de este sistema de coordenadas permite trabajar con **unidades métricas*
 3. En el campo *Altura*, haga clic en el botón de expresiones e ingrese la siguiente fórmula:
 
 ```r
-coalesce("building:levels" * 10, "height" * 2, 20)
+coalesce("building:levels" * 10, "height" * 2, 20
+```
+
 
 <div style="text-align:center; margin: 2rem 0;">
   <a href="https://www.buymeacoffee.com/denisyenrc7">
