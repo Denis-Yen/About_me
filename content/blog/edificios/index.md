@@ -76,3 +76,20 @@ El uso de este sistema de coordenadas permite trabajar con **unidades métricas*
 
 ```r
 coalesce("building:levels" * 10, "height" * 2, 20)
+
+<div style="text-align:center; margin: 2rem 0;">
+  <a href="https://www.buymeacoffee.com/denisyenrc7">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Cómprame%20un%20café&emoji=☕&slug=denisyenrc7&button_colour=6fc7da&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" />
+  </a>
+</div>
+
+<div style="text-align:center; color:#6fc7da; font-weight:600;">
+Si este contenido te fue útil,
+</div>
+<div style="text-align:center; color:#6fc7da;">
+puedes apoyarme con un café ☕.  
+Es una forma sencilla de ayudarme a seguir creando y compartiendo conocimiento.
+</div>
+
+
+
