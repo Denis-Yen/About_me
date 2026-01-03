@@ -13,6 +13,12 @@ excerpt: "A través de un gráfico interactivo en R, aprende y explorar la evolu
 ---
 
 ### ¿Qué es la dependencia demográfica?
+<iframe 
+  src="/01-dependencia-demografica/grafico_final.html"
+  width="100%" 
+  height="500px"
+  frameborder="0">
+</iframe>
 
 La **dependencia demográfica** es un indicador fundamental para analizar la estructura por 
 edades de una población. Permite estimar la **presión potencial** que ejercen los grupos 
@@ -156,14 +162,18 @@ así como la adaptación del mercado laboral frente a una población progresivam
 
 ----
 
-<a href="https://www.buymeacoffee.com/denisyenrc7"><img src="https://img.buymeacoffee.com/button-api/?text=Cómprame un café&emoji=☕&slug=denisyenrc7&button_colour=6fc7da&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+<div style="text-align:center; margin: 2rem 0;">
+  <a href="https://www.buymeacoffee.com/denisyenrc7">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Cómprame%20un%20café&emoji=☕&slug=denisyenrc7&button_colour=6fc7da&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" />
+  </a>
+</div>
 
-<span style="color:#6fc7da; font-weight:600;">
+<div style="text-align:center; color:#6fc7da; font-weight:600;">
 Si este contenido te fue útil,
-</span>
-<span style="color:6fc7da;">
+</div>
+<div style="text-align:center; color:#6fc7da;">
 puedes apoyarme con un café ☕.  
 Es una forma sencilla de ayudarme a seguir creando y compartiendo conocimiento.
-</span>
+</div>
 
 

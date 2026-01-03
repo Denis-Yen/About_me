@@ -16,7 +16,7 @@ tags:
 - style
 title: ¿Qué distritos de Piura enfrentan un riesgo Muy Alto de movimientos de masa?
 ---
-
+![](color-featured.png)
 Los eventos climáticos extremos asociados a El Niño y La Niña incrementan el riesgo de inundaciones y movimientos de masa en diversas regiones del país. En este contexto, resulta fundamental contar con herramientas que permitan identificar los territorios más expuestos y apoyar la toma de decisiones basada en evidencia.
 
 En este artículo se presenta la elaboración de un mapa profesional del nivel de riesgo a movimientos de masa a nivel distrital en el departamento de Piura, utilizando R y datos oficiales de [**CENEPRED**](https://sigrid.cenepred.gob.pe/sigridv3/documento/17791). El análisis permite identificar los distritos expuestos a un nivel Muy Alto de riesgo y aporta una visualización clara para la gestión y prevención del riesgo.
@@ -165,6 +165,19 @@ Este ejercicio demuestra cómo:
 
 -   Pasar de datos espaciales oficiales a **mapas claros y comunicables**
 -   Combinar **mapas estáticos** para informes y **mapas interactivos** para exploración
--   Identificar **territorios críticos** en Piura con evidencia visual
+-   Identificar **territorios críticos** en Piura con evidencia visual para captar la atención de 
+tomadores de desción.
 
-📊 **El mapa no solo comunica datos, comunica riesgo.**
+<div style="text-align:center; margin: 2rem 0;">
+  <a href="https://www.buymeacoffee.com/denisyenrc7">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Cómprame%20un%20café&emoji=☕&slug=denisyenrc7&button_colour=6fc7da&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" />
+  </a>
+</div>
+
+<div style="text-align:center; color:#6fc7da; font-weight:600;">
+Si este contenido te fue útil,
+</div>
+<div style="text-align:center; color:#6fc7da;">
+puedes apoyarme con un café ☕.  
+Es una forma sencilla de ayudarme a seguir creando y compartiendo conocimiento.
+</div>
