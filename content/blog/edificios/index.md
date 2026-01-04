@@ -2,7 +2,8 @@
 author: Denis Rodríguez
 categories:
 - Qgis
-date: "2026-03-01"
+- SIG
+date: "2026-01-03"
 draft: false
 excerpt: En este tutorial se muestra cómo crear un mapa isométrico de edificios utilizando QGIS
   y datos de OpenStreetMap, aplicando técnicas de visualización 2.5D para resaltar la altura
