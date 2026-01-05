@@ -1,16 +1,16 @@
 ---
-author: Eric Anderson
+author: Denis Rodríguez
 categories:
-- Theme Features
-- R
-- package
+- Cursos
+- Kobotoolbox
+- Spss
 date: "2019-07-02"
 draft: false
 excerpt: Grid is the very first CSS module created specifically to solve the layout
   problems we’ve all been hacking our way around for as long as we’ve been making
   websites.
 featured: true
-layout: single-sidebar
+layout: single
 links:
 - icon: door-open
   icon_pack: fas
@@ -26,7 +26,8 @@ links:
   url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
 subtitle: ""
 tags:
-- hugo-site
+- Cursos
+- Kobotoolbox
 title: Kobotoolbox para investigadores
 ---
 

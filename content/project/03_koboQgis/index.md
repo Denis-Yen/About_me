@@ -1,9 +1,9 @@
 ---
-author: Eric Anderson
+author: Denis Rodríguez
 categories:
-- Theme Features
-- R
-- package
+- Cursos
+- Kobotoolbox
+- Qgis
 date: "2019-07-01"
 draft: false
 excerpt: This theme has a form-to-email feature built in, thanks to the simple Formspree
@@ -26,8 +26,6 @@ title: Recopilació inteligente y mapeo SIG
 ---
 
 ![Formspree Logo](formspree-logo.png)
-
-## [Formspree](https://formspree.io) makes it easy to receive submissions from HTML forms on your static website.
 
 ---
 

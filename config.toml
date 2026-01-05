@@ -33,7 +33,7 @@ enableEmoji = true
   orgLocal = "Quatum Data Consulting"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
-  logo = "/img/Logo_qdc.png"
+  logo = "/img/logo_qdc.png"
   mainSections = ["blog", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
