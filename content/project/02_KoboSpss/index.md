@@ -4,10 +4,11 @@ categories:
 - Cursos
 - Kobotoolbox
 - Spss
-date: "2025-01-05"
+date: "2025-12-05"
 draft: false
 excerpt: Curso especializado para tesistas, investigadores y profesionales de las ciencias sociales orientado al uso de KoboToolbox
-  para recolectar datos desde dispositivos móviles, con o sin conexión a internet, y exportarlos listos para SPSS, Stata y R.
+  para recolectar datos desde dispositivos móviles, con o sin conexión a internet, y exportarlos listos para el análisis estadístico con SPSS, Stata y R.
+  
 featured: true
 layout: single
 links:
@@ -19,13 +20,13 @@ links:
   icon_pack: fas
   name: Inscribirme Ahora
   url: https://ee.kobotoolbox.org/x/D4Xe3bYx
-subtitle: ""
+subtitle: "KoboToolbox + Spss + Stata + R"
 tags:
 - Cursos
 - Kobotoolbox
 title: Kobotoolbox para investigadores
 ---
-
+![Registro_baneer](forms_curso2.png)
 ### Investigación Académica con KoboToolbox. Del Trabajo de Campo al Análisis Estadístico. [(Proximamente)]()
 
 ---
