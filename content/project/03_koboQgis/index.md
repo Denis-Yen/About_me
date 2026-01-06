@@ -63,37 +63,27 @@ Este curso te enseña a implementar un sistema completo de recolección y análi
 ----
 ### Resultados que lograrás al finalizar el curso
 
-Al finalizar el curso, serás capaz de:
+- Comprender los **fundamentos de los Sistemas de Información Geográfica (SIG)** y reconocer sus principales aplicaciones en **salud pública**, **respuesta a desastres**, **planificación urbana**.
 
-#### 1️⃣ Diseño y construcción de formularios
-- Diseñar formularios digitales profesionales en **KoboToolbox**.
-- Crear formularios con **validaciones automáticas** y control de errores.
-- Construir **ubigeo en cascada (INEI)**  
-  Departamento → Provincia → Distrito, utilizando el ubigeo oficial del INEI para enriquecer los datos con información secundaria.
-- Configurar **dispositivos móviles** y sincronizarlos con el **servidor de KoboToolbox**.
+- Navegar y utilizar de manera eficiente las funciones de **KoboToolbox**, permitiéndole diseñar, gestionar y ejecutar procesos de **recopilación de datos digitales** de forma estructurada y segura.
 
-#### 2️⃣ Recolección de datos en campo
-- Capturar **fotos, audios y videos** desde dispositivos móviles durante el trabajo de campo.
-- Editar **registros existentes** sin necesidad de realizar nuevos envíos.
-- Exportar audios y **convertir grabaciones a texto** utilizando **LLM en R**.
+- Aplicar el **proceso completo de creación, implementación y gestión de proyectos SIG**, integrando datos espaciales y no espaciales a partir de **estudios de casos reales**.
 
-#### 3️⃣ Procesamiento y publicación de datos
-- Procesar resultados y generar **informes reproducibles en Quarto** para publicación web.
-- Elaborar **tablas de frecuencias** en **Stata y SPSS**.
-- Aplicar el **test de confiabilidad Alfa de Cronbach**.
-- Generar **nubes de palabras** a partir de información textual.
+- Diseñar formularios digitales incorporando **lógica condicional, validaciones y controles de calidad**, garantizando la **consistencia y confiabilidad de los datos** recolectados en campo.
 
-#### 4️⃣ Gestión y limpieza de datos
-- Realizar **limpieza avanzada de datos** en **R y Stata**.
-- Aplicar **recodificación y etiquetado de variables** para análisis académico.
-- Gestionar **valores perdidos** en bases de datos.
+- Instalar y utilizar **QGIS**, reconociendo su interfaz, herramientas principales y funcionalidades clave para el análisis geoespacial.
 
-#### 5️⃣ Análisis estadístico avanzado
-- Realizar **análisis correlacional** en **Stata, SPSS y R**.
-- Estimar **modelos de regresión** con los datos recolectados.
-- Aplicar **estadística descriptiva básica**.
-- Construir **índices y escalas** a partir de variables observadas.
-- Preparar **variables para modelos multivariados**.
+- Trabajar con distintos **tipos de datos y fuentes SIG**, cargar mapas base y explorar información vectorial para su análisis e interpretación.
+
+- Construir, editar, etiquetar y clasificar entidades geográficas, desarrollando habilidades de **comunicación visual clara e impactante** mediante mapas.
+
+- Elaborar **mapas temáticos y diseños cartográficos**, incorporando elementos esenciales como **leyendas, barras de escala y flechas del norte**, de acuerdo con objetivos analíticos y comunicacionales.
+
+- Exportar mapas en diversos formatos para su **presentación, difusión y uso en informes técnicos**.
+
+- Sincronizar datos en **tiempo real** entre **KoboToolbox y QGIS** mediante el complemento **QRealTime**, facilitando la actualización continua de información geoespacial.
+
+- Utilizar herramientas básicas de análisis espacial para **calcular áreas, distancias y seleccionar características**, apoyando la toma de decisiones basada en evidencia.
 
 
 ### 👤 Público objetivo
