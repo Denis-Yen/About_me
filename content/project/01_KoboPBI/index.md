@@ -15,6 +15,10 @@ links:
   icon_pack: fas
   name: website
   url: https://sprightly-biscuit-258c7b.netlify.app/
+- icon: hand-pointer
+  icon_pack: fas
+  name: Inscribirme Ahora
+  url: https://ee.kobotoolbox.org/x/D4Xe3bYw
 subtitle: A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that
   always moves faster than light.
 tags:

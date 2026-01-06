@@ -4,26 +4,21 @@ categories:
 - Cursos
 - Kobotoolbox
 - Spss
-date: "2019-07-02"
+date: "2025-01-05"
 draft: false
-excerpt: Grid is the very first CSS module created specifically to solve the layout
-  problems we’ve all been hacking our way around for as long as we’ve been making
-  websites.
+excerpt: Curso especializado para tesistas, investigadores y profesionales de las ciencias sociales orientado al uso de KoboToolbox
+  para recolectar datos desde dispositivos móviles, con o sin conexión a internet, y exportarlos listos para SPSS, Stata y R.
 featured: true
 layout: single
 links:
 - icon: door-open
   icon_pack: fas
   name: website
-  url: https://allisonhorst.github.io/palmerpenguins/
-- icon: github
-  icon_pack: fab
-  name: code
-  url: https://github.com/allisonhorst/palmerpenguins/
-- icon: newspaper
-  icon_pack: far
-  name: Blog post
-  url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
+  url: https://sprightly-biscuit-258c7b.netlify.app/
+- icon: hand-pointer
+  icon_pack: fas
+  name: Inscribirme Ahora
+  url: https://ee.kobotoolbox.org/x/D4Xe3bYx
 subtitle: ""
 tags:
 - Cursos
@@ -31,40 +26,119 @@ tags:
 title: Kobotoolbox para investigadores
 ---
 
-### “Grid is the very first CSS module created specifically to solve the layout problems we've all been hacking our way around for as long as we've been making websites.”
-
-*— [Chris House, A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)* [^1]
+### Investigación Académica con KoboToolbox. Del Trabajo de Campo al Análisis Estadístico. [(Proximamente)]()
 
 ---
+### En que consiste el curso
+Curso especializado orientado a tesistas, investigadores y profesionales de las ciencias sociales que realizan trabajo de campo, 
+y requieren recolectar datos de manera rigurosa, ética y confiable, para su posterior análisis estadístico académico.
 
-Since I began building websites in Y2K, I've lost count how many times the phrase "...there's got to be a better way to do this" has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid `TABLE`.
+El curso guía al participante desde el diseño del instrumento digital, la recolección de datos en campo (con o sin conexión a internet),
+hasta la exportación y preparación de bases de datos listas para análisis en SPSS, Stata y R.
 
-Well, technology sure has come a long way since slicing up images to match the table-based layout that was just created in Dreamweaver. You'd be surprised (or maybe you wouldn't) how challenging the standard header, content, sidebar, footer layout could be to actually get right.
+{{< panelset class="greetings" >}}
+{{< panel name="El Probelma! :rotating_light:" >}}
+ 
+ * Instrumentos mal diseñados que afectan la validez metodológica de tesis e investigaciones.
+ * Dificultad para recolectar datos en zonas sin conexión a internet.
+ * Bases de datos desordenadas, con errores o incompatibles con SPSS, Stata o R.
+ * Falta de control de calidad durante el levantamiento de información en campo.
+ * Desconocimiento de buenas prácticas éticas en la recolección y gestión de datos.
+ * Pérdida de tiempo en limpieza y recodificación manual de bases de datos.
+ * Brecha entre el trabajo de campo y el análisis estadístico académico.
 
-{{< figure src="css-grid-cover.png" alt="Traditional right sidebar layout" caption="A visual example of the traditional right sidebar layout" >}}
+{{< /panel >}}
+{{< panel name="La solución :white_check_mark:" >}}
+Este curso te enseña a implementar un sistema completo de recolección y análisis estadístico de datos, donde:
 
----
+* Aprenderas a recolectar datos digitales con KoboToolbox desde tu celular o tablet.
+* Recopilar datos de campo incluso sin internet, sin usar papel.
+* Diseña instrumentos claros, validados y listos para investigación académica.
+* Exporta datos limpios y estructurados, listos para SPSS, Stata y R.
+* Aplica el flujo completo directamente a tu tesis o investigación real.
+* Analizar transcripción de audio para preguntas cualitativas.
 
-### <dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD</dfn>
+{{< /panel >}}
+{{< /panelset >}}
 
-A proper grid is what we always wanted, no ... _needed_ to build websites with a solid, unbreakable structure. And that's why I used it in this theme. I call this feature a "scaffold" because none of the _content_ is laid out on this grid. Only the main _structure_: consisting of the `header`, `footer`, `main`, `aside`, and `footer`. As you can tell by this quote from the [W3C](https://www.w3.org/TR/css-grid-1/) on the candidate recommendation itself, Grid is the perfect tool for the job:
 
-> ##### CSS Grid Layout Module
->
-> This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
->
-> — _W3C_
+----
+### Resultados que lograrás al finalizar el curso
 
-CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:
+Al finalizar el curso, serás capaz de:
 
-```css
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, auto);
-}
-```
+#### 1️⃣ Diseño y construcción de formularios
+- Diseñar formularios digitales profesionales en **KoboToolbox**.
+- Crear formularios con **validaciones automáticas** y control de errores.
+- Construir **ubigeo en cascada (INEI)**  
+  Departamento → Provincia → Distrito, utilizando el ubigeo oficial del INEI para enriquecer los datos con información secundaria.
+- Configurar **dispositivos móviles** y sincronizarlos con el **servidor de KoboToolbox**.
 
-#### What an amazing time to be a web developer. Anyway, I hope you enjoy this "feature" that you'll probably never notice or even see. Maybe that's the best part of a good user interface – the hidden stuff that just works.
+#### 2️⃣ Recolección de datos en campo
+- Capturar **fotos, audios y videos** desde dispositivos móviles durante el trabajo de campo.
+- Editar **registros existentes** sin necesidad de realizar nuevos envíos.
+- Exportar audios y **convertir grabaciones a texto** utilizando **LLM en R**.
 
-[^1]: The original article cited here is now updated and maintained by the staff over at CSS-Tricks. Bookmark their version if you want to dive in and learn about CSS Grid: [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+#### 3️⃣ Procesamiento y publicación de datos
+- Procesar resultados y generar **informes reproducibles en Quarto** para publicación web.
+- Elaborar **tablas de frecuencias** en **Stata y SPSS**.
+- Aplicar el **test de confiabilidad Alfa de Cronbach**.
+- Generar **nubes de palabras** a partir de información textual.
+
+#### 4️⃣ Gestión y limpieza de datos
+- Realizar **limpieza avanzada de datos** en **R y Stata**.
+- Aplicar **recodificación y etiquetado de variables** para análisis académico.
+- Gestionar **valores perdidos** en bases de datos.
+
+#### 5️⃣ Análisis estadístico avanzado
+- Realizar **análisis correlacional** en **Stata, SPSS y R**.
+- Estimar **modelos de regresión** con los datos recolectados.
+- Aplicar **estadística descriptiva básica**.
+- Construir **índices y escalas** a partir de variables observadas.
+- Preparar **variables para modelos multivariados**.
+
+
+### 👤 Público objetivo
+- **Tesistas** de licenciatura, maestría.
+- **Investigadores** académicos  
+- **Antropólogos** y **sociólogos** de campo  
+- **Historiadores** y profesionales de ciencias sociales  
+- Cualquier persona interesada en **recolectar, gestionar y analizar datos de forma profesional**
+
+
+<span style="color:#6fc7da; font-weight:600;">
+Convierte los datos de campo en hallazgos y conocimiento académico.
+</span>
+
+### Brouchure del curso
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscripción al curso</title>
+  <style>
+    .btn-inscribirme {
+      background-color: #0fffff;
+      color: #000000;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.0s ease, transform 0.0s ease;
+    }
+
+    .btn-inscribirme:hover {
+      background-color: #000000;
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+
+  <a href="https://drive.google.com/file/d/1WUFop1u3ql7EJJBJ74USgmR0Q3-WKeeB/view?usp=sharing" class="btn-inscribirme">
+    📝 Click Aquí
+  </a>
+
+</body>
+</html>

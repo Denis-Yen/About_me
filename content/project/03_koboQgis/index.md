@@ -22,7 +22,7 @@ links:
 subtitle: An R Package
 tags:
 - hugo-site
-title: Recopilació inteligente y mapeo SIG
+title: Recopilación inteligente y mapeo SIG
 ---
 
 ![Formspree Logo](formspree-logo.png)
