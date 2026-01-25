@@ -18,7 +18,7 @@ links:
 - icon: hand-pointer
   icon_pack: fas
   name: Inscribirme Ahora
-  url: https://ee.kobotoolbox.org/x/D4Xe3bYw
+  url: https://ee.kobotoolbox.org/x/eLhxdbAA
 subtitle: A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that
   always moves faster than light.
 tags:
@@ -27,9 +27,9 @@ title: Curso de recopilación de datos
 subtitle: Kobotoolbox + Power BI + IA
 ---
 
-![Registro_baneer](registro.png)
+1![Registro_baneer](registro.png)
 
-## De la captura de datos a la toma de decisiones en tiempo real.[Inscribirme](https://ee.kobotoolbox.org/x/D4Xe3bYw) 
+## De la captura de datos a la toma de decisiones en tiempo real.[Inscribirme](https://ee.kobotoolbox.org/x/eLhxdbAA) 
 
 ---
 ### En que consiste el curso
@@ -46,6 +46,7 @@ encuestas, registros administrativos, fichas de atención, monitoreo en campo, e
 Ya sea en papel, Excel o formularios digitales, el problema no es la recolección, sino lo que pasa después:
 
 - 📄 Se capturan datos, pero no se validan correctamente
+- 📄 Uso de formualarios de papel, propensos a errores y perdida de datos
 - ❌ DNI mal digitados, teléfonos incompletos o correos inválidos
 - 🔁 Información duplicada o inconsistente
 - ⏳ Mucho tiempo limpiando datos en Excel
