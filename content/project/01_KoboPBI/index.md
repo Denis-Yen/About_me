@@ -27,7 +27,7 @@ title: Curso de recopilación de datos
 subtitle: Kobotoolbox + Power BI + IA
 ---
 
-1![Registro_baneer](registro.png)
+![Registro_baneer](registro.png)
 
 ## De la captura de datos a la toma de decisiones en tiempo real.[Inscribirme](https://ee.kobotoolbox.org/x/eLhxdbAA) 
 

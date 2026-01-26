@@ -120,6 +120,10 @@ enableEmoji = true
       icon_pack = "fab"
       url       = "https://x.com/denis_yen"
   [[params.social]]
+      icon      = "bluesky" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://bsky.app/profile/denisyenrc.bsky.social"
+  [[params.social]]
       icon      = "youtube" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://www.youtube.com/@denisyenrodriguezcortegana5770"
