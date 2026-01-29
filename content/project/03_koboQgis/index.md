@@ -124,7 +124,7 @@ Convierte los datos de campo en hallazgos y conocimiento académico.
 </head>
 <body>
 
-  <a href="https://drive.google.com/file/d/1WUFop1u3ql7EJJBJ74USgmR0Q3-WKeeB/view?usp=sharing" class="btn-inscribirme">
+  <a href="" class="btn-inscribirme">
     📝 Click Aquí
   </a>
 
