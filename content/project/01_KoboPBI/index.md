@@ -53,7 +53,7 @@ Ya sea en papel, Excel o formularios digitales, el problema no es la recolecció
 - 📉 Los datos llegan tarde o no llegan a quien decide
 - 📊 No existen reportes automáticos ni dashboards
 
-🤷‍♂️ La información recolectada no se usa para tomar decisione
+🤷‍♂️ La información recolectada no se usa para tomar decisiones.
 Se invierte tiempo y dinero en recolectar datos que no generan valor.
 
 {{< /panel >}}
@@ -134,7 +134,7 @@ Este curso no te enseña solo a recolectar datos. Te enseña a convertir datos e
 </head>
 <body>
 
-  <a href="https://drive.google.com/file/d/1WUFop1u3ql7EJJBJ74USgmR0Q3-WKeeB/view?usp=sharing" class="btn-inscribirme">
+  <a href="https://drive.google.com/file/d/1HR1Lh9xuTR-gr_u7Ul2RC1sqxcicx2Ej/view?usp=sharing" class="btn-inscribirme">
     📝 Click Aquí
   </a>
 
