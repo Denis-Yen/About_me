@@ -14,7 +14,7 @@ images:
 - img/denis.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Data Scientist | Análisis Demográfico
+subtitle: Data Analytics | Big Data | SIG | M&E
 text_align_left: false
 title: "Denis Rodríguez, economista"
 type: home

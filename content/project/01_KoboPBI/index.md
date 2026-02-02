@@ -4,7 +4,7 @@ categories:
 - Cursos
 - Kobotoolbox
 - Power BI
-date: "2025-12-26"
+date: "2026-02-02"
 draft: false
 excerpt: "Curso de kobotoolbox para la recopilación de datos, enfocado en el diseño de formularios inteligentes,
         trabajo de campo y visualización de información en tiempo real con Power Bi, aplicable a instituciones públicas, 
@@ -14,7 +14,7 @@ links:
 - icon: door-open
   icon_pack: fas
   name: website
-  url: https://sprightly-biscuit-258c7b.netlify.app/
+  url: https://www.instagram.com/quantum_dataconsulting/
 - icon: hand-pointer
   icon_pack: fas
   name: Inscribirme Ahora
