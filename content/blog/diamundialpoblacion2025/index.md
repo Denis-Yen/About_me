@@ -34,15 +34,19 @@ Al finalizar tendrás un mapa similar al siguiente:
 
 El mapa permite identificar rápidamente que Utcubamba y Bagua concentran la mayor población del departamento de Amazonas, con más de 90 mil habitantes.
 
+#### PROVINCIAS DE CAJAMARCA: POBLACIÓN TOTAL 2025
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/cajamarca.png)
 
-## Datos utilizados
+### Datos utilizados
 
 Para este ejercicio se emplean dos fuentes de información:
 
-- El **shapefile de provincias del Perú**, que contiene la geometría oficial de cada provincia.
-- La base de datos del **Censo Nacional 2025**, publicada por el INEI.
+- El **[shapefile de provincias del Perú](https://github.com/Denis-Yen/Blog/tree/main/DiaMundialPoblacion2025/data/SHP%20PERU/PROVINCIAS)**, que contiene la geometría oficial de cada provincia.
+- La base de datos de población, estructurada con el ubigeo provincial, publicada por el INEI: [📥 Descargar base de datos](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/data/Poblaci%C3%B3n_Proyectada_2025_cpv.xlsx)
 
 Posteriormente ambas fuentes se integran mediante el código único de provincia (`IDPROV`) que es el ubigeo provincial.
+
+#### **Accede a todos los mapas [aquí](https://github.com/Denis-Yen/Blog/tree/main/DiaMundialPoblacion2025/imagenes/CPV_2025).**
 
 ---
 
