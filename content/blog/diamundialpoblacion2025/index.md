@@ -9,11 +9,11 @@ draft: false
 layout: single
 title: "Día Mundial de la Población: crea mapas provinciales del Perú con R usando los datos oficiales del Censo 2025"
 subtitle: "Visualizando la población provincial de las 26 regiones del Perú con datos del INEI"
-excerpt: "Los datos del Censo Nacional 2025 permiten conocer cómo se distribuye la población en las provincias del Perú. En este tutorial aprenderás a crear mapas coropléticos con R utilizando los datos oficiales del INEI y el código completo para replicarlos."
+excerpt: "Los datos del Censo Nacional 2025 permiten conocer cómo se distribuye la población en las provincias del Perú. En este tutorial aprenderás a crear mapas coropléticos con R utilizando los datos oficiales del INEI y el código completo para replicarlos o descargarlos para las 26 regiones del país."
 ---
 
 
-## Introducción
+## INTRODUCCIÓN
 
 Cada **11 de julio** se conmemora el **Día Mundial de la Población**, una fecha promovida por las Naciones Unidas para reflexionar sobre las tendencias demográficas y la importancia de contar con información estadística de calidad para el diseño de políticas públicas.
 
@@ -28,15 +28,213 @@ Al finalizar tendrás un mapa similar al siguiente:
 - Cada provincia estará coloreada según su población.
 - El color plomo indica una mayo concentración de Población
 - Las etiquetas mostrarán el nombre de la provincia y su población total.
-- El mapa estará listo para publicarse en redes sociales o incorporarse en un informe técnico o en presetaciones.
-#### PROVINCIAS DE AMAZONAS: POBLACIÓN TOTAL 2025
+- El mapa estará listo para publicarse en redes sociales o incorporarse en un informe técnico o en presentaciones.
+#### POBLACIÓN DE LAS PROVINCIAS DE AMAZONAS
 ![](featured.png)
 
 El mapa permite identificar rápidamente que Utcubamba y Bagua concentran la mayor población del departamento de Amazonas, con más de 90 mil habitantes.
 
-#### PROVINCIAS DE CAJAMARCA: POBLACIÓN TOTAL 2025
+<details>
+<summary><strong>Áncash</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE ÁNCASH
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/ancash.png)
+
+</details>
+
+<details>
+<summary><strong>Apurímac</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE APURÍMAC
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/apurimac.png)
+
+</details>
+
+<details>
+<summary><strong>Arequipa</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE AREQUIPA
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/arequipa.png)
+
+</details>
+
+<details>
+<summary><strong>Ayacucho</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE AYACUCHO
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/ayacucho.png)
+
+</details>
+
+<details>
+<summary><strong>Cajamarca</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE CAJAMARCA
 ![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/cajamarca.png)
 
+</details>
+
+<details>
+<summary><strong>Callao</strong></summary>
+
+#### POBLACIÓN DE LA REGIÓN CALLAO
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/callao.png)
+
+</details>
+
+<details>
+<summary><strong>Cusco</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE CUSCO
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/cusco.png)
+
+</details>
+
+<details>
+<summary><strong>Huancavelica</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE HUANCAVELICA
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/huancavelica.png)
+
+</details>
+
+<details>
+<summary><strong>Huánuco</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE HUÁNUCO
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/huanuco.png)
+
+</details>
+
+<details>
+<summary><strong>Ica</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE ICA
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/ica.png)
+
+</details>
+
+<details>
+<summary><strong>Junín</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE JUNÍN
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/junin.png)
+
+</details>
+
+<details>
+<summary><strong>La Libertad</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE LA LIBERTAD
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/la_libertad.png)
+
+</details>
+
+<details>
+<summary><strong>Lambayeque</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE LAMBAYEQUE
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/lambayeque.png)
+
+</details>
+
+<details>
+<summary><strong>Lima Metropolitana</strong></summary>
+
+#### POBLACIÓN DE LIMA METROPOLITANA
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/lima.png)
+
+</details>
+
+<details>
+<summary><strong>Loreto</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE LORETO
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/loreto.png)
+
+</details>
+
+<details>
+<summary><strong>Madre de Dios</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE MADRE DE DIOS
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/madre_de_dios.png)
+
+</details>
+
+<details>
+<summary><strong>Moquegua</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE MOQUEGUA
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/moquegua.png)
+
+</details>
+
+<details>
+<summary><strong>Pasco</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE PASCO
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/pasco.png)
+
+</details>
+
+<details>
+<summary><strong>Piura</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE PIURA
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/piura.png)
+
+</details>
+
+<details>
+<summary><strong>Puno</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE PUNO
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/puno.png)
+
+</details>
+
+<details>
+<summary><strong>Región Lima</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE LA REGIÓN LIMA
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/region_lima.png)
+
+</details>
+
+<details>
+<summary><strong>San Martín</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE SAN MARTÍN
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/san_martin.png)
+
+</details>
+
+<details>
+<summary><strong>Tacna</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE TACNA
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/tacna.png)
+
+</details>
+
+<details>
+<summary><strong>Tumbes</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE TUMBES
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/tumbes.png)
+
+</details>
+
+<details>
+<summary><strong>Ucayali</strong></summary>
+
+#### POBLACIÓN DE LAS PROVINCIAS DE UCAYALI
+![](https://raw.githubusercontent.com/Denis-Yen/Blog/main/DiaMundialPoblacion2025/imagenes/CPV_2025/ucayali.png)
+
+</details>
+
+##  COSTRUIR LOS MAPAS
 ### Datos utilizados
 
 Para este ejercicio se emplean dos fuentes de información:
@@ -46,7 +244,7 @@ Para este ejercicio se emplean dos fuentes de información:
 
 Posteriormente ambas fuentes se integran mediante el código único de provincia (`IDPROV`) que es el ubigeo provincial.
 
-#### **Accede a todos los mapas [aquí](https://github.com/Denis-Yen/Blog/tree/main/DiaMundialPoblacion2025/imagenes/CPV_2025).**
+#### **Descarga todos los mapas [aquí](https://github.com/Denis-Yen/Blog/tree/main/DiaMundialPoblacion2025/imagenes/CPV_2025).**
 
 ---
 
